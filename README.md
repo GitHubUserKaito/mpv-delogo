@@ -2,7 +2,8 @@
 
 ~~~
 mkdir -p ~/.config/mpv/scripts/
-cp * ~/.config/mpv/scripts/
+cp *lua ~/.config/mpv/scripts/
+sudo cp delogo /usr/local/bin/
 ~~~
 
 Requiere:
