@@ -1,5 +1,7 @@
 # mpv delogo
 
+Presionar **n** para quitar el logo
+
 ~~~
 mkdir -p ~/.config/mpv/scripts/
 cp *lua ~/.config/mpv/scripts/
