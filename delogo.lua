@@ -13,6 +13,7 @@ function load_delogo_fn()
             'vf add @%s:lavfi=[delogo=x=250:y=558:w=165:h=95]',
             cropdetect_label
    ))
+    mp.osd_message("No Logo")
 end
 
 mp.add_key_binding("n", "auto_load_delogo", load_delogo_fn)
