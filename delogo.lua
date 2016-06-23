@@ -3,6 +3,7 @@
 -- keyname script_binding auto_load_delogo
 local utils = require 'mp.utils'
 function load_delogo_fn()
+    mp.osd_message("Search logo")
     subl = "/usr/local/bin/delogo"
     t = {}
     t.args = {subl,mp.get_property("path")}
