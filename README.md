@@ -1,2 +1,11 @@
-# mpv-delogo
-Quitar el logo del canal de los video
+# mpv delogo
+
+~~~
+mkdir -p ~/.config/mpv/scripts/
+cp * ~/.config/mpv/scripts/
+~~~
+
+--
+
+**Bitcoin:** 19qkh5dNVxL58o5hh6hLsK64PwEtEXVHXs
+
